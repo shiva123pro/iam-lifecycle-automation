@@ -1,0 +1,8 @@
+2026-01-27T00:13:16.774091Z JOINER user=john.doe@demo.com groups=['All_Employees', 'IT_Standard', 'US_Policies', 'VPN_Users'] mfa=enabled source=hr
+2026-01-27T00:13:16.774653Z JOINER user=sara.khan@demo.com groups=['All_Employees', 'Finance_Read', 'SOX_Audited', 'US_Policies'] mfa=enabled source=hr
+2026-01-27T00:13:16.790403Z MOVER user=john.doe@demo.com removed=['IT_Standard', 'VPN_Users'] added=['Finance_Read', 'SOX_Audited'] access_review=triggered source=hr
+2026-01-27T00:13:16.804187Z LEAVER user=ravi.sharma@demo.com action=disabled sessions=revoked groups=removed source=hr
+2026-01-27T00:20:42.851147Z MOVER user=john.doe@demo.com removed=['IT_Standard', 'VPN_Users'] added=['Finance_Read', 'SOX_Audited'] access_review=triggered source=hr
+2026-01-27T00:20:42.867622Z LEAVER user=ravi.sharma@demo.com action=disabled sessions=revoked groups=removed source=hr
+2026-01-27T00:35:26.450853Z MOVER user=john.doe@demo.com removed=['IT_Standard', 'VPN_Users'] added=['Finance_Read', 'SOX_Audited'] access_review=triggered source=hr
+2026-01-27T00:35:26.462281Z LEAVER user=ravi.sharma@demo.com action=disabled sessions=revoked groups=removed source=hr

@@ -1,0 +1,12 @@
+{
+  "default_groups": ["All_Employees"],
+  "department_to_groups": {
+    "IT": ["IT_Standard", "VPN_Users"],
+    "Finance": ["Finance_Read", "SOX_Audited"],
+    "HR": ["HR_Standard"]
+  },
+  "location_to_groups": {
+    "US": ["US_Policies"],
+    "IN": ["IN_Policies"]
+  }
+}

@@ -1,0 +1,4 @@
+employee_id,first_name,last_name,email,department,title,location,status
+1001,John,Doe,john.doe@demo.com,IT,Analyst,US,ACTIVE
+1002,Sara,Khan,sara.khan@demo.com,Finance,Associate,US,ACTIVE
+1003,Ravi,Sharma,ravi.sharma@demo.com,HR,Coordinator,IN,TERMINATED
